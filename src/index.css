@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-sans: "Figtree", sans-serif;
+
+  --color-papel: #fbf8f4;
+  --color-morada: #2e1a3b;
+  --color-uva: #5a3a6e;
+  --color-arco-rosa: #e58fa8;
+  --color-arco-durazno: #f2a672;
+  --color-arco-ocre: #e3b04b;
+  --color-arco-salvia: #8db38b;
+  --color-arco-cielo: #6fa8c7;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
